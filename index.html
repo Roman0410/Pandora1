@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pandora</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link
+      href="//db.onlinewebfonts.com/c/8f0df2cb0f7181e0f37615026d9bfce3?family=Pan+Display+Regular"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container header-container">
+        <div class="logo">
+          <img src="img/Pandora_Logo_2019 2.png" alt="" />
+        </div>
+        <div class="header-right">
+          <form class="form">
+            <input
+              class="input-search"
+              type="text"
+              name="text"
+              class="search"
+              placeholder="CERCA..."
+            />
+            <img class="search-icon" src="./img/Search.png" alt="" />
+          </form>
+          <nav class="header-nav">
+            <ul class="header-nav-list">
+              <li class="header-nav-item">
+                <img src="/img/Vector.png" alt="" />
+              </li>
+              <li class="header-nav-item">
+                <img src="/img/Vector (1).png" alt="" />
+              </li>
+              <li class="header-nav-item">
+                <img src="/img/Vector (2).png" alt="" />
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="header-mob">
+      <div class="left-side">
+        <div class="burger-menu">
+          <img src="img/icon_menu.png" alt="" />
+        </div>
+        <div>
+          <img src="img/Vector (1).png" alt="" />
+        </div>
+      </div>
+      <div class="logo">
+        <img src="./img/logo-mob.png" alt="" />
+      </div>
+      <div class="right-side">
+        <div class=""><img src="img/Search.png" alt="" /></div>
+        <div class=""><img src="img/Vector (2).png" alt="" /></div>
+      </div>
+    </div>
+    <main class="page">
+      <div class="container mian-container">
+        <div class="main-left">
+          <ul class="photo-container">
+            <li class="photo-card"><img src="./img/photo1.png" alt="img" /></li>
+            <li class="photo-card"><img src="./img/photo2.png" alt="img" /></li>
+            <li class="photo-card"><img src="./img/photo3.png" alt="img" /></li>
+            <li class="photo-card"><img src="./img/photo4.png" alt="img" /></li>
+          </ul>
+        </div>
+        <div class="slider">
+          <div class="slider__item">
+            <img src="./img/photo1.png" alt="img" />
+          </div>
+          <div class="slider__item">
+            <img src="./img/photo2.png" alt="img" />
+          </div>
+          <div class="slider__item">
+            <img src="./img/photo3.png" alt="img" />
+          </div>
+          <div class="slider__item">
+            <img src="./img/photo4.png" alt="img" />
+          </div>
+        </div>
+        <div class="main-right">
+          <div class="right-container">
+            <p class="right-info">NOVITÀ | RISPARMIA 57€</p>
+            <h2 class="right-title">Set Bracciale Sogna in Grande</h2>
+            <div class="price">
+              <p class="old-price">€ 236,00</p>
+              <p class="new-price">€ 179,00</p>
+            </div>
+            <div class="description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Integer malesuada nunc vel risus commodo viverra. Leo in vitae
+              turpis massa sed elementum tempus egestas. Augue neque gravida in
+              fermentum et sollicitudin ac. Aenean euismod elementum nisi quis
+              eleifend quam adipiscing vitae proin. Massa massa ultricies mi
+              quis hendrerit dolor magna eget est. Urna et pharetra pharetra
+              massa massa ultricies mi.
+            </div>
+            <div class="question-block">
+              <div class="question active-question">
+                <p class="question-title">Domanda 1/3:</p>
+                <p class="question-text">
+                  Avete mai usato un Set Bracciale Sogna in Grande?
+                </p>
+                <button class="answer">Sì</button>
+                <button class="answer">No</button>
+              </div>
+              <div class="question">
+                <p class="question-title">Domanda 2/3:</p>
+                <p class="question-text">
+                  Avete mai usato un Set Bracciale Sogna in Grande?
+                </p>
+                <button class="answer">Sì</button>
+                <button class="answer">No</button>
+              </div>
+              <div class="question">
+                <p class="question-title">Domanda 3/3:</p>
+                <p class="question-text">
+                  Avete mai usato un Set Bracciale Sogna in Grande?
+                </p>
+                <button id="redirect" class="answer">Sì</button>
+                <button id="redirect1" class="answer">No</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="feedback-container">
+      <a><p class="feedback">feedback</p></a>
+    </div>
+    <script src="./js/question.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/slick.min.js"></script>
+  </body>
+</html>

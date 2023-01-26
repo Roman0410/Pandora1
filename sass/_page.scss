@@ -1,0 +1,113 @@
+.page {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.mian-container {
+  display: flex;
+  @media screen and (max-width: 767px) {
+    display: block;
+  }
+}
+.main-left {
+  width: 65%;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+.photo-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.photo-card img {
+  width: 400px;
+  height: 400px;
+  @media screen and (max-width: 1200px) {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.photo-card {
+}
+.main-right {
+  width: 35%;
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+}
+.right-container {
+  max-width: 330px;
+  margin-left: 75px;
+  @media screen and (max-width: 1300px) {
+    width: 100%;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 767px) {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.right-info {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  letter-spacing: 0.125em;
+  color: #71706c;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+.right-title {
+  max-width: 276px;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 116%;
+  text-align: center;
+  color: #27251f;
+  @media screen and (max-width: 767px) {
+    max-width: 334px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 18px;
+    /* identical to box height, or 75% */
+
+    text-align: center;
+    letter-spacing: 0.017em;
+
+    color: #27251f;
+  }
+}
+.price {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 21px;
+}
+.old-price {
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.003em;
+  text-decoration-line: line-through;
+  color: #27251f;
+}
+.new-price {
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.003em;
+  color: #d2255b;
+}
+.description {
+  max-width: 301px;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: 0.017em;
+  color: #27251f;
+  @media screen and (max-width: 767px) {
+    max-width: 330px;
+  }
+}

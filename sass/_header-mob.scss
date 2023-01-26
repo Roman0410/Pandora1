@@ -1,0 +1,30 @@
+.header-mob {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 16px 10px 16px;
+  border-bottom: 5px solid #ffcad4;
+  display: none;
+  @media screen and (max-width: 767px) {
+    display: flex;
+    justify-content: space-between;
+  }
+  &img {
+    cursor: pointer;
+  }
+}
+.left-side {
+  display: flex;
+
+  gap: 19px;
+}
+.burger-menu {
+}
+.logo {
+  padding-bottom: 9px;
+}
+.right-side {
+  display: flex;
+  align-items: flex-end;
+  gap: 34px;
+}
