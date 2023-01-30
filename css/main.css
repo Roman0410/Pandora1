@@ -91,8 +91,22 @@
   }
 }
 
+@font-face {
+  font-family: "Conv_Pan";
+  src: url("../fonts/Pan Display Regular.eot");
+  src: local("☺"), url("../fonts/Pan Display Regular.woff") format("woff"), url("../fonts/Pan Display Regular.ttf") format("truetype"), url("../fonts/Pan Display Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Conv_Pan Display Bold";
+  src: url("../fonts/Pan Display Bold.eot");
+  src: local("☺"), url("../fonts/Pan Display Bold.woff") format("woff"), url("../fonts/Pan Display Bold.ttf") format("truetype"), url("../fonts/Pan Display Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
 body {
-  font-family: "Pan Display Regular" !important;
+  font-family: "Conv_Pan";
   padding: 0;
   margin: 0;
 }
@@ -195,6 +209,7 @@ h3 {
 .right-title {
   max-width: 276px;
   margin: 0 auto;
+  font-family: "Conv_Pan Display Bold";
   font-weight: 700;
   font-size: 28px;
   line-height: 116%;
@@ -262,6 +277,7 @@ h3 {
 }
 
 .question-title {
+  font-family: "Conv_Pan Display Bold";
   font-weight: 700;
   font-size: 14px;
   line-height: 130%;
